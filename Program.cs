@@ -42,6 +42,6 @@
             }
             else { Console.Write("Ошибка при вводе b"); }
         }
-        else { Console.Write("Ошибка при вводе a"); }
+        else { Console.WriteLine("Ошибка при вводе a"); }
     }
 }
