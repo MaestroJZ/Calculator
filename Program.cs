@@ -2,16 +2,15 @@
 {
     private static void Main(string[] args)
     {
-        double a, b , result;
-        char o;
+        double result;
         Console.Write("a = ");
-        if (double.TryParse(Console.ReadLine(), out a))
+        if (double.TryParse(Console.ReadLine(), out double a))
         {
             Console.Write("b = ");
-            if (double.TryParse(Console.ReadLine(), out b))
+            if (double.TryParse(Console.ReadLine(), out double b))
             {
                 Console.Write("Операция: ");
-                if (char.TryParse(Console.ReadLine(), out o))
+                if (char.TryParse(Console.ReadLine(), out char o))
                 {
                     switch (o)
                     {
