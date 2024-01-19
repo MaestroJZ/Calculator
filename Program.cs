@@ -16,31 +16,31 @@
                     {
                         case '+':
                             result = a + b;
-                            Console.WriteLine($"{a} + {b} = {result}");
+                            Console.Write($"{a} + {b} = {result}");
                             break;
                         case '-':
                             result = a - b;
-                            Console.WriteLine($"{a} - {b} = {result}");
+                            Console.Write($"{a} - {b} = {result}");
                             break;
                         case '*':
                             result = a * b;
-                            Console.WriteLine($"{a} * {b} = {result}");
+                            Console.Write($"{a} * {b} = {result}");
                             break;
                         case '/':
-                            if (b == 0) { Console.WriteLine("На 0 нельзя делить"); }
+                            if (b == 0) { Console.Write("На 0 нельзя делить"); }
                             else
                             {
                                 result = a / b;
-                                Console.WriteLine($"Результат: {result}");
+                                Console.Write($"Результат: {result}");
                             }
                             break;
                         default:
-                            Console.WriteLine("Неправильно ввели операцию");
+                            Console.Write("Неправильно ввели операцию");
                             break;
                     }
-                } else { Console.WriteLine("Ошибка при вводе операций"); }
+                } else { Console.Write("Ошибка при вводе операций"); }
             }
-            else { Console.WriteLine("Ошибка при вводе b"); }
+            else { Console.Write("Ошибка при вводе b"); }
         }
         else { Console.Write("Ошибка при вводе a"); }
     }
